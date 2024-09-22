@@ -1,0 +1,46 @@
+doctype html
+html
+    head
+
+        title Page d'accueil
+        link(rel="stylesheet", href="/stylesheets/style.css")
+
+    body
+        header
+            .header
+                div
+                    h1#title
+                        a(href="/") Crea&Num
+
+                div
+                    a.nav(href="/") Accueil 
+                    a.nav(href="/nosServices") Nos services 
+                    a.nav(href="/contactezNous") Contactez-nous 
+
+    section
+        .form
+            h1.contact Nous Contacter
+            form 
+                label(for="nom") Nom
+                br
+                input(type="text")
+                br
+
+                label(for="prenom") Prenom(s)
+                br
+                input(type="text")
+                br
+
+                label(for="email") Email
+                br
+                input(type="text")
+                br
+
+                textarea(name="message") message
+                br
+    
+    footer
+            .elmfoot
+                h2.footer
+                    a(href="/") Creation & Numerique
+                p.devise Votre satisfaction, notre plaisir!

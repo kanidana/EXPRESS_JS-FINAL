@@ -1,0 +1,130 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/images/girl-2190108_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span{
+  color: rgb(211, 74, 97);
+}
+
+.nav{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav:hover{
+  color: rgb(211, 74, 97);
+  text-decoration: overline;
+  
+}
+
+.accueil{
+  text-align: center;
+  padding-top: 90px;
+  margin: 20px auto;
+  font-size: 80px;
+  background-color: rgba(255, 192, 203, 0.495);
+  height: 400px;
+  width: 1300px;
+  border-radius: 20px;
+}
+
+#title a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+
+h2,p{
+  text-align: center;
+}
+
+.elmfootServ{
+  margin-top: 130px;
+}
+.contact{
+  font-size: 30px;
+}
+.form{
+  background-color: rgba(157, 73, 87, 0.534);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 40px;
+}
+form{
+  width: 100%;
+  padding: 30px;
+}
+
+.text{
+  font-size: 50px;
+  text-align: center;
+}
+
+input,textarea{
+  width: 100%;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid rgb(237, 2, 41);
+  background-color: transparent;
+  margin-bottom: 20px; 
+}
+
+
+label{
+  font-size: 20px;
+}
+
+.service{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px ;
+}
+
+.serv{
+  background-color: rgba(255, 192, 203, 0.822);
+  margin: 20px;
+  border-radius: 4px;
+  border-top: 10px solid rgb(211, 74, 97);
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.devise{
+  background-color: rgb(211, 74, 97);
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.serv h1 p{
+  font-size: 20px;
+}
+
+
